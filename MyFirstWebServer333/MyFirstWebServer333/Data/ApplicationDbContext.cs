@@ -11,4 +11,7 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    
+    public DbSet<PersonModel> Persons { get; set; }
+    
 }
