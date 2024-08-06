@@ -1,0 +1,23 @@
+﻿<h1> Create Tag</h1>
+
+<div>
+    <div>
+        <h3 class="widget-heading">Create Tag</h3>
+        <form
+            asp-controller="Tag"
+            asp-action="Create">
+            <div class="mb-2">
+                <input type="text"
+                       class="form-control" name="name" placeholder="Enter tag name">
+            </div>
+            <div class="mb-2">
+                <input type="text"
+                       class="form-control" name="description" placeholder="Enter description">
+            </div>
+            <div class="mb-2">
+                <input type="submit" value="Save">
+            </div>
+            
+        </form>
+    </div>
+</div>

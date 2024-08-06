@@ -13,5 +13,9 @@ public class ApplicationDbContext : IdentityDbContext
     }
     
     public DbSet<PersonModel> Persons { get; set; }
+    public DbSet<CategoryModel> Category { get; set; }
     
+    public DbSet<TagModel> Tag { get; set; } 
+    
+    public DbSet<VendorModel> Vendor { get; set; }
 }
